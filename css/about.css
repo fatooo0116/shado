@@ -1,0 +1,81 @@
+/* PC */
+@media screen and (min-width:481px), print {
+
+    h2 {
+        width: 150px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    h2 img {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    #Main {
+        width: 650px !important;
+        margin: 0 auto !important;
+        font-size: 117%;
+        letter-spacing: 0.2em;
+        line-height: 2.5;
+        padding-bottom: 100px;
+    }
+    #Main h3 {
+        margin-bottom: 80px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 129%;
+    }
+    #Main p {
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+}
+
+
+
+/* �嫘�𠺶�� */
+@media only screen and (max-width: 480px) {
+
+
+
+    h2 {
+        display: none;
+    }
+
+
+
+    #Main {
+        padding: 10% 10% 10% 10%;
+        font-size: 117%;
+        letter-spacing: 0.2em;
+        line-height: 2.5;
+    }
+    #Main h3 {
+        margin-bottom: 80px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 129%;
+    }
+    #Main p {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+/* PC */
+@media screen and (min-width:481px), print {
+
+
+
+    #Order {
+        width: 1000px;
+        margin: 0 auto !important;
+    }
+    #Order table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    #Order table th {
+        width: 22%;
+        padding: 20px;
+        border: solid 1px #ddd;
+        text-align: center;
+        background: #fdfdfd;
+    }
+    #Order table td {
+        padding: 20px;
+        border: solid 1px #ddd;
+    }
+
+
+
+
+}
+
+
+
+/* �嫘�𠺶�� */
+@media only screen and (max-width: 480px) {
+
+
+
+    #Order {
+        padding: 5%;
+    }
+    #Order table {
+        width: 100%;
+        border-collapse: collapse;
+        border-bottom: solid 1px #ddd;
+    }
+    #Order table th {
+        display: block;
+        padding: 5%;
+        border: solid 1px #ddd;
+        border-bottom: none;
+        text-align: center;
+        background: #fdfdfd;
+    }
+    #Order table td {
+        display: block;
+        padding: 5%;
+        border: solid 1px #ddd;
+        border-bottom: none;
+    }
+
+
+
+
+
+}

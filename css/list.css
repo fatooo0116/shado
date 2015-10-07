@@ -1,0 +1,382 @@
+/* PC */
+@media screen and (min-width:481px), print {
+
+
+    #List {
+        width: 1380px;
+        margin: 0 auto;
+    }
+    #List.mini {
+        width: 920px;
+    }
+    #List .none {
+        display: none;
+    }
+
+    #List dl {
+        width: 460px;
+        float: left;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #List dl dt {
+        width: 460px;
+        height: 460px;
+        margin-bottom: 15px;
+        position: relative;
+    }
+    #List dl dd {
+        font-weight: bold;
+    }
+    #List dl dd .name {
+        font-size: 16px;
+        line-height: 1.1em;
+    }
+    #List dl dd .money {
+        font-size: 14px;
+    }
+
+
+
+
+    #Main {
+        width: 1000px !important;
+        margin: 0 auto !important;
+    }
+    #Main #Mainimages {
+        margin-bottom: 77px;
+    }
+
+
+    #Main #Item {
+        margin-bottom: 100px;
+    }
+    #Main #Item #readArea {
+        width: 680px;
+        float: left;
+    }
+    #Main #Item #readArea h3 {
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 1.6em;
+        margin-bottom: 20px;
+    }
+    #Main #Item #readArea .txt {
+        font-size: 14px;
+        line-height: 2.2em;
+        margin-bottom: 40px;
+    }
+
+
+    #Main #Item #rightArea {
+        width: 280px;
+        float: right;
+    }
+    #Main #Item #rightArea #cartBox {
+        background: #f7f7f2;
+        margin-bottom: 30px;
+        padding: 30px;
+
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    }
+    #Main #Item #rightArea #cartBox p img {
+        width: 100%;
+        height: auto;
+    }
+
+    #Main #Item #rightArea #cartBox ul {
+        margin-bottom: 20px;
+    }
+    #Main #Item #rightArea #cartBox ul li {
+        margin-bottom: 8px;
+    }
+    #Main #Item #rightArea #cartBox ul li span {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    #Main #Item #rightArea #cartBox ul li input {
+        width: 80px;
+        border:solid 1px #d1d1d1;
+        padding: 6px;
+
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    }
+
+
+    #Main #detailBox {
+        border: solid 1px #e8e8e8;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+    #Main #detailBox dl {
+        margin-bottom: 12px;
+    }
+    * html #Main #detailBox dl {
+        zoom: 100%;
+    }
+    *:first-child+html #Main #detailBox dl {
+        display: inline-block;
+    }
+    #Main #detailBox dl:after {
+        content: ".";
+        clear: both;
+        height: 0;
+        display: block;
+        visibility: hidden;
+    }
+
+
+
+    #Main #detailBox dl.last {
+        margin-bottom: 0;
+    }
+    #Main #detailBox dl dt {
+        color: #888;
+        float: left;
+        width: 80px;
+    }
+    #Main #detailBox dl dd {
+        float: left;
+        width: 550px;
+    }
+
+
+
+
+
+
+
+    #Main #Relation {
+    }
+    #Main #Relation h4 {
+        font-size: 14px;
+        background: url(/img/relation_tit.gif) no-repeat left center;
+        padding-left: 25px;
+        margin-bottom: 30px;
+    }
+
+    #Main #Relation dl {
+        width: 235px;
+        float: left;
+        margin-right: 20px;
+    }
+    #Main #Relation dl.last {
+        margin-right: 0;
+    }
+    #Main #Relation dl dt {
+        margin-bottom: 10px;
+    }
+    #Main #Relation dl dd {
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+
+
+
+
+}
+
+
+
+/* �嫘�𠺶�� */
+@media only screen and (max-width: 480px) {
+
+
+
+    #List {
+    }
+    #List.mini {
+    }
+
+    #List dl {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+    #List dl dt {
+        margin-bottom: 15px;
+    }
+    #List dl dd {
+    }
+    #List dl dd .name {
+        font-size: 125%;
+        line-height: 1.1em;
+    }
+    #List dl dd .money {
+        font-size: 110%;
+    }
+
+
+
+
+
+    #Main {
+    }
+    #Main #Mainimages {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    #Main #Mainimages img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    #Main #Item {
+    }
+    #Main #Item #readArea {
+        margin-bottom: 5%;
+    }
+    #Main #Item #readArea h3 {
+        font-size: 140%;
+        font-weight: bold;
+        line-height: 1.6em;
+        margin-bottom: 20px;
+    }
+
+    #Main #Item #readArea .txt {
+        font-size: 110%;
+        line-height: 2em;
+        margin-bottom: 30px;
+    }
+    #Main #Item #readArea p img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    #Main #Item #rightArea {
+        margin-bottom: 5%;
+    }
+    #Main #Item #rightArea #cartBox {
+        background: #f7f7f2;
+        padding: 30px;
+
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    }
+    #Main #Item #rightArea #cartBox ul {
+        margin-bottom: 20px;
+    }
+    #Main #Item #rightArea #cartBox ul li {
+        margin-bottom: 8px;
+    }
+    #Main #Item #rightArea #cartBox ul li span {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    #Main #Item #rightArea #cartBox ul li input {
+        width: 80px;
+        border:solid 1px #d1d1d1;
+        padding: 6px;
+
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    }
+    #Main #Item #rightArea #cartBox p {
+    }
+    #Main #Item #rightArea #cartBox p img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    #Main #detailBox {
+        border: solid 1px #e8e8e8;
+        padding: 20px;
+        margin-bottom: 5%;
+    }
+    #Main #detailBox dl {
+        margin-bottom: 12px;
+    }
+    #Main #detailBox dl.last {
+        margin-bottom: 0;
+    }
+    #Main #detailBox dl dt {
+        color: #888;
+    }
+
+
+
+    #Main #Relation {
+    }
+    #Main #Relation h4 {
+        font-size: 14px;
+        background: url(/img/relation_tit.gif) no-repeat left center;
+        padding-left: 25px;
+        margin-bottom: 30px;
+    }
+
+    #Main #Relation dl {
+        width: 235px;
+        float: left;
+        margin-right: 20px;
+    }
+    #Main #Relation dl.last {
+        margin-right: 0;
+    }
+    #Main #Relation dl dt {
+        margin-bottom: 10px;
+    }
+    #Main #Relation dl dd {
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+
+}
+
+
+
+
+.chiri {
+    background: url(../img/icon_chiri.png) no-repeat 0em 0.4em;
+    padding: 10px 0;
+    padding-left: 50px;
+}
+.ebi {
+    background: url(../img/icon_ebi.png) no-repeat 0em 0.3em;
+    padding: 10px 0;
+    padding-left: 55px;
+}
+.hotate {
+    background: url(../img/icon_hotate.png) no-repeat 0em 0.5em;
+    padding: 10px 0;
+    padding-left: 28px;
+}
+.shitake {
+    background: url(../img/icon_shitake.png) no-repeat 0em 0.5em;
+    padding: 10px 0;
+    padding-left: 32px;
+}
+.soboro {
+    background: url(../img/icon_soboro.png) no-repeat 0em 0em;
+    padding: 10px 0;
+    padding-left: 28px;
+}
+.konbu {
+    background: url(../img/icon_konbu.png) no-repeat 0em 0.4em;
+    padding: 10px 0;
+    padding-left: 28px;
+}
+
+
+
+
+
+
+
+
+
+
